@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:fuck/app/w1.dart';
+import 'package:fuck/app/app.dart';
 
 void main() {
-  runApp(Widget1());
+  runApp(const Widget1());
 }
 
 class Widget1 extends StatelessWidget {
