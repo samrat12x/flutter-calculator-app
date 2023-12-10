@@ -15,8 +15,6 @@ class MainApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         home: Scaffold(
             backgroundColor: Colors.deepOrangeAccent,
-            body: SafeArea(
-                bottom: false,
-                child: Container(child: const CalculatorView()))));
+            body: SafeArea(bottom: false, child: CalculatorView())));
   }
 }
